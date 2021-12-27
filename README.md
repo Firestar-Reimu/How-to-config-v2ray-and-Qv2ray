@@ -10,11 +10,19 @@ Qv2ray 的下载地址：
 
 https://github.com/Qv2ray/Qv2ray/releases
 
-**Manjaro 上可以直接用包管理器分别下载这两个软件：`yay -S v2ray qv2ray`**
+**Manjaro 上可以直接用包管理器分别下载这两个软件：`yay -S v2ray qv2ray-dev-git`**
 
 ### 安装 v2ray 和 Qv2ray
 
-**Manjaro 上直接用包管理器安装即可**
+#### Manjaro
+
+Manjaro 上直接用包管理器安装即可，内核配置一般会自动完成，手动配置为：
+
+首选项 --> 内核设置 --> V2Ray 核心可执行文件路径 --> `/bin/v2ray`
+
+首选项 --> 内核设置 --> V2Ray 资源目录 --> `/usr/share/v2ray`
+
+#### Windows
 
 Windows 上，建议先安装 Qv2ray 再安装 v2ray
 
